@@ -1,0 +1,5 @@
+node_modules/
+*.r1cs
+*.sym
+*.wasm
+*.zkey

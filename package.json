@@ -1,0 +1,25 @@
+{
+  "name": "zk-circom-snarkjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/**/*.js",
+    "compile": "node scripts/compile.js",
+    "prove": "node scripts/prove.js",
+    "verify": "node scripts/verify.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "circom": "^0.5.46",
+    "snarkjs": "^0.7.4"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
